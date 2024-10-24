@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+input[type="text"] {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 84%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+#urls button {
+    display: block;
+    width: calc(80% - 20px);
+    margin: 5px auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+    #urls button:hover {
+        background-color: #0056b3;
+    }
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #007bff;
+}
+
+#content {
+    margin-top: 20px;
+    white-space: pre-wrap;
+    text-align: center;
+}
+
+iframe {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
+    display: block;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
